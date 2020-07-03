@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_Bg"
+    android:orientation="vertical">
+
+    <!--Toolbar-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:elevation="@dimen/card_Elevation_Small">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/menuBtn"
+                android:layout_width="@dimen/icon_Size_Extra_Large"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_Small"
+                android:layout_marginEnd="@dimen/margin_Medium"
+                android:src="@drawable/ic_nav_menu"
+                android:background="@android:color/transparent"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/toolbarTitle"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                tools:text="@string/overview"
+                android:textColor="@color/font_Color_Light"
+                android:textSize="@dimen/text_Size_Medium"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/infoBtn"
+                android:layout_width="@dimen/icon_Size_Extra_Large"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_Medium"
+                android:layout_marginEnd="@dimen/margin_Small"
+                android:src="@drawable/ic_info"
+                android:background="@android:color/transparent"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--Fragment Host-->
+    <FrameLayout
+        android:id="@+id/hostFragment"
+        android:layout_below="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/layout_shimmer"/>
+
+    <!--Loader-->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loader"
+        android:layout_width="@dimen/loader_Size"
+        android:layout_height="@dimen/loader_Size"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="lottie/loading.json"
+        app:lottie_loop="true"
+        app:lottie_colorFilter="@color/icon_Color_Light"/>
+
+</RelativeLayout>

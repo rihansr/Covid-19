@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/shape_snippet"
+    android:padding="@dimen/padding_Medium"
+    android:layout_width="@dimen/snippet_Width"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/countryName"
+        style="@style/SmallTvStyle"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/margin_Extra_Small"
+        tools:text="Chittagong, Bangladesh"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="@dimen/text_Size_Extra_Small"
+        android:textColor="@color/font_Color_Dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_Large"
+        android:gravity="center_horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/affectedCount"
+            style="@style/SmallTvStyle"
+            tools:text="12,345"
+            android:textSize="@dimen/_9sdp"
+            android:textColor="@color/font_Color_Light"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/SmallTvStyle"
+            android:text="@string/peopleAffected"
+            android:layout_marginStart="@dimen/margin_Small"
+            android:textSize="@dimen/_8sdp"
+            android:textColor="@color/font_Color_Dark"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_Medium"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/SmallTvStyle"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/margin_Small"
+                android:text="@string/active"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/_8sdp"
+                android:textColor="@color/font_Color_Green"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/activeCount"
+                android:layout_width="match_parent"
+                style="@style/SmallTvStyle"
+                tools:text="15,909"
+                android:textSize="@dimen/text_Size_Extra_Small"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="@dimen/view_Small"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_Small"
+            android:background="@color/colorTrans"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/SmallTvStyle"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/margin_Small"
+                android:text="@string/deaths"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/_8sdp"
+                android:textColor="@color/font_Color_Red"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/deathCount"
+                android:layout_width="match_parent"
+                style="@style/SmallTvStyle"
+                tools:text="1,909"
+                android:textSize="@dimen/text_Size_Extra_Small"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="@dimen/view_Small"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_Small"
+            android:background="@color/colorTrans"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/SmallTvStyle"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/margin_Small"
+                android:text="@string/recovered"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/_8sdp"
+                android:textColor="@color/font_Color_Green"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/recoveredCount"
+                android:layout_width="match_parent"
+                style="@style/SmallTvStyle"
+                tools:text="25,108"
+                android:textSize="@dimen/text_Size_Extra_Small"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

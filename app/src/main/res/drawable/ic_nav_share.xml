@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/icon_Size_Extra_Small"
+    android:height="@dimen/icon_Size_Extra_Small"
+    android:viewportWidth="480"
+    android:viewportHeight="480">
+
+    <group
+        android:pivotX="240"
+        android:pivotY="240"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m160,424h160c13.254,0 24,-10.746 24,-24v-320c0,-13.254 -10.746,-24 -24,-24h-160c-13.254,0 -24,10.746 -24,24v320c0,13.254 10.746,24 24,24zM320,408h-160c-4.418,0 -8,-3.582 -8,-8v-25.473c2.563,0.949 5.27,1.445 8,1.473h160c2.73,-0.027 5.438,-0.523 8,-1.473v25.473c0,4.418 -3.582,8 -8,8zM152,128c0,-4.418 3.582,-8 8,-8h160c4.418,0 8,3.582 8,8v224c0,4.418 -3.582,8 -8,8h-160c-4.418,0 -8,-3.582 -8,-8zM160,72h160c4.418,0 8,3.582 8,8v25.473c-2.563,-0.949 -5.27,-1.445 -8,-1.473h-160c-2.73,0.027 -5.438,0.523 -8,1.473v-25.473c0,-4.418 3.582,-8 8,-8zM160,72" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m396.215,285.199 l12.152,-10.406 13.703,16.008 -12.152,10.406zM396.215,285.199" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m375.637,261.219 l12.141,-10.422 13.73,15.996 -12.141,10.422zM375.637,261.219" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m409.93,178.801 l-48,56c-2.563,2.992 -2.563,7.406 0,10.398l6.863,8 12.137,-10.398 -2.402,-2.793 43.535,-50.801zM409.93,178.801" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m448,120c-17.672,0 -32,14.328 -32,32s14.328,32 32,32 32,-14.328 32,-32 -14.328,-32 -32,-32zM448,168c-8.836,0 -16,-7.164 -16,-16s7.164,-16 16,-16 16,7.164 16,16 -7.164,16 -16,16zM448,168" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m448,288c-17.672,0 -32,14.328 -32,32s14.328,32 32,32 32,-14.328 32,-32 -14.328,-32 -32,-32zM448,336c-8.836,0 -16,-7.164 -16,-16s7.164,-16 16,-16 16,7.164 16,16 -7.164,16 -16,16zM448,336" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m57.926,189.207 l12.152,-10.41 13.711,16 -12.148,10.41zM57.926,189.207" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m78.504,213.211 l12.145,-10.418 13.723,16.004 -12.148,10.414zM78.504,213.211" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m118.07,234.793 l-6.863,-8 -12.137,10.398 2.402,2.793 -43.543,50.816 12.141,10.398 48,-56c2.566,-2.996 2.566,-7.41 0,-10.406zM118.07,234.793" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m32,296c-17.672,0 -32,14.328 -32,32s14.328,32 32,32 32,-14.328 32,-32 -14.328,-32 -32,-32zM32,344c-8.836,0 -16,-7.164 -16,-16s7.164,-16 16,-16 16,7.164 16,16 -7.164,16 -16,16zM32,344" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m32,128c-17.672,0 -32,14.328 -32,32s14.328,32 32,32 32,-14.328 32,-32 -14.328,-32 -32,-32zM32,176c-8.836,0 -16,-7.164 -16,-16s7.164,-16 16,-16 16,7.164 16,16 -7.164,16 -16,16zM32,176" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m216,80h32v16h-32zM216,80" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m264,80h16v16h-16zM264,80" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m184,248h80c8.836,0 16,-7.164 16,-16v-64c0,-8.836 -7.164,-16 -16,-16h-80c-8.836,0 -16,7.164 -16,16v64c0,8.836 7.164,16 16,16zM184,168h80v64h-80zM184,168" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m272,280h-56c-4.418,0 -8,-3.582 -8,-8v-8h-16v8c0,13.254 10.746,24 24,24h52.688l29.656,29.656c1.5,1.5 3.535,2.344 5.656,2.344 1.051,0.004 2.094,-0.203 3.063,-0.609 2.988,-1.238 4.938,-4.156 4.938,-7.391v-112h-16v92.688l-18.344,-18.344c-1.5,-1.5 -3.535,-2.344 -5.656,-2.344zM272,280" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m200,192h16v16h-16zM200,192" />
+        <path
+            android:fillColor="@color/icon_Color_Light"
+            android:pathData="m232,192h16v16h-16zM232,192" />
+
+    </group>
+
+</vector>

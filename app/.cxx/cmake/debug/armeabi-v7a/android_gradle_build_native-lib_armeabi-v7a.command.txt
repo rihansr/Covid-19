@@ -1,0 +1,7 @@
+Executable : C:\Users\Rizve\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\COVID19\app\.cxx\cmake\debug\armeabi-v7a
+native-lib
+jvmArgs : 
+

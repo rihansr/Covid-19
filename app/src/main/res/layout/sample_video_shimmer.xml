@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_Extra_Large"
+        android:layout_marginTop="@dimen/margin_Small"
+        android:layout_marginEnd="@dimen/margin_Extra_Large"
+        android:layout_marginBottom="@dimen/margin_Medium"
+        android:elevation="@dimen/card_Elevation_Small"
+        app:cardBackgroundColor="@color/shimmer_Color_Dark"
+        app:cardCornerRadius="@dimen/card_Radius_Medium">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/video_Height"
+                android:padding="@dimen/padding_Medium">
+
+                <View
+                    android:layout_width="@dimen/icon_Size_Default"
+                    android:layout_height="@dimen/icon_Size_Default"
+                    android:layout_gravity="top|end"
+                    android:background="@color/shimmer_Color_Light"/>
+
+                <View
+                    android:layout_width="@dimen/icon_Size_Large"
+                    android:layout_height="@dimen/icon_Size_Large"
+                    android:layout_gravity="center"
+                    android:background="@color/shimmer_Color_Light"/>
+
+                <View
+                    android:id="@+id/duration"
+                    android:layout_width="@dimen/icon_Size_Large"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="bottom|end"
+                    android:background="@color/shimmer_Color_Light"/>
+
+            </FrameLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_Medium"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/icon"
+                    android:layout_width="@dimen/icon_Size_Large"
+                    android:layout_height="@dimen/icon_Size_Large"
+                    android:layout_marginEnd="@dimen/margin_Medium"
+                    android:background="@color/shimmer_Color_Light"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_marginEnd="@dimen/margin_Double_Extra_Large"
+                        android:layout_marginBottom="@dimen/margin_Extra_Small"
+                        android:gravity="start"
+                        android:background="@color/shimmer_Color_Light" />
+
+                    <View
+                        android:id="@+id/message"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_10sdp"
+                        android:gravity="start"
+                        android:layout_marginTop="@dimen/margin_Extra_Small"
+                        android:background="@color/shimmer_Color_Light"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

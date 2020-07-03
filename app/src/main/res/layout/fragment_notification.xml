@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/activity_Bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.NotificationFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvFaq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="@dimen/fading_Edge_Length"
+        tools:itemCount="4"
+        tools:listitem="@layout/sample_notification"
+        android:clipToPadding="false"
+        android:scrollbars="none"/>
+
+</RelativeLayout>

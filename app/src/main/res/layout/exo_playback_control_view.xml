@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransPrimary"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/playback_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@color/colorTransPrimary"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_Extra_Large">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@id/exo_rew"
+            style="@style/ExoMediaButton.Rewind"
+            android:layout_marginRight="@dimen/player_Margin"
+            tools:ignore="RtlHardcoded" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@id/exo_play"
+            style="@style/ExoMediaButton.Play"
+            android:scaleType="center" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@id/exo_pause"
+            style="@style/ExoMediaButton.Pause" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@id/exo_ffwd"
+            style="@style/ExoMediaButton.FastForward"
+            android:layout_marginLeft="@dimen/player_Margin"
+            tools:ignore="RtlHardcoded" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/img_btn_player_back"
+            android:layout_width="@dimen/icon_Size_Large"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_Medium"
+            android:layout_marginEnd="@dimen/margin_Medium"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/padding_Small"
+            app:srcCompat="@drawable/ic_arrow_back" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/videoTitle"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            tools:text="How to protect yourself from coronavirus"
+            android:textSize="@dimen/text_Size_Small"
+            android:textColor="@color/font_Color_Light"/>
+
+        <View
+            android:layout_width="@dimen/icon_Size_Large"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_Medium"
+            android:layout_marginEnd="@dimen/margin_Medium"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:paddingStart="@dimen/padding_Medium"
+        android:paddingEnd="@dimen/padding_Medium"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/exo_position"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_Small"
+            android:paddingRight="@dimen/padding_Small"
+            tools:text="10:23"
+            android:textColor="@color/font_Color_Light"
+            android:textSize="@dimen/text_Size_Small"
+            android:textStyle="bold" />
+
+        <com.google.android.exoplayer2.ui.DefaultTimeBar
+            android:id="@id/exo_progress"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:bar_height="@dimen/view_Large"
+            app:unplayed_color="@color/icon_Color_Dark"
+            app:played_color="@color/icon_Color_Red"
+            app:buffered_color="@color/icon_Color_Light"
+            app:scrubber_color="@color/icon_Color_Red" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/exo_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_Small"
+            android:paddingRight="@dimen/padding_Small"
+            tools:text="10:45"
+            android:textColor="@color/font_Color_Light"
+            android:textSize="@dimen/text_Size_Small"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

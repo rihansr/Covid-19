@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    tools:background="@drawable/activity_Bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.CasesMapFragment">
+
+    <!--Google Map-->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--Search Panel-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+        <!--Search Bar-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_Double_Extra_Large"
+            android:layout_marginStart="@dimen/margin_Double_Extra_Large"
+            android:layout_marginEnd="@dimen/margin_Double_Extra_Large"
+            android:layout_marginBottom="@dimen/margin_Medium"
+            app:cardBackgroundColor="@color/card_Bg"
+            app:cardCornerRadius="@dimen/card_Radius_Medium"
+            android:elevation="@dimen/card_Elevation_Small">
+
+            <com.rsr.covid_19.util.InstantAutoCompleteTextView
+                android:id="@+id/searchCountry_Input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/padding_Medium"
+                android:hint="@string/searchByCountry_Hint"
+                android:textCursorDrawable="@null"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="@dimen/padding_Medium"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLines="1"
+                android:textColor="@color/font_Color_Light"
+                android:textColorHint="@color/font_Color_Dark"
+                android:textSize="@dimen/text_Size_Extra_Small" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Popup Anchor-->
+        <View
+            android:id="@+id/country_Popup_Anchor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/margin_Extra_Large"
+            android:layout_marginEnd="@dimen/margin_Extra_Large"
+            android:background="@android:color/black" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

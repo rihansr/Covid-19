@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:top="0dp" android:bottom="10dp">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/colorPrimary" />
+            <size
+                android:width="@dimen/snippet_Width"/>
+            <corners android:radius="@dimen/card_Radius_Medium" />
+        </shape>
+    </item>
+
+    <item android:bottom="0dp"
+        android:top="0dp"
+        android:gravity="center_horizontal|bottom">
+        <rotate
+            android:fromDegrees="45"
+            android:toDegrees="45"
+            android:pivotX="72%"
+            android:pivotY="15%">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/colorPrimary" />
+                <size
+                    android:height="@dimen/_16sdp"
+                    android:width="@dimen/_16sdp"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

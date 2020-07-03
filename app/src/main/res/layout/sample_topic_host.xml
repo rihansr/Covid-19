@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/margin_Large"
+    android:layout_marginBottom="@dimen/margin_Large"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        style="@style/FaqTvStyle"
+        android:layout_marginStart="@dimen/margin_Extra_Large"
+        android:layout_marginEnd="@dimen/margin_Extra_Large"
+        tools:text="Be ready for coronavirus"
+        android:textSize="@dimen/text_Size_Medium" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvSliders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_Medium"
+        tools:itemCount="2"
+        tools:listitem="@layout/sample_topic"
+        android:paddingStart="@dimen/padding_Extra_Large"
+        android:paddingEnd="@dimen/padding_Extra_Large"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="@dimen/margin_Large"
+        android:layout_marginBottom="@dimen/margin_Large"
+        android:layout_marginStart="@dimen/margin_Extra_Large"
+        android:layout_marginEnd="@dimen/margin_Extra_Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/margin_Extra_Small"
+            android:layout_marginBottom="@dimen/margin_Extra_Small"
+            android:layout_marginEnd="@dimen/margin_Extra_Large"
+            android:background="@color/shimmer_Color_Light"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/slider_Width"
+            android:layout_height="@dimen/slider_Height"
+            android:layout_marginEnd="@dimen/margin_Medium"
+            android:layout_marginTop="@dimen/margin_Medium"
+            app:cardBackgroundColor="@color/shimmer_Color_Dark"
+            app:cardCornerRadius="@dimen/card_Radius_Medium"
+            android:elevation="@dimen/card_Elevation_Small">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_Large"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/margin_Small"
+                            android:background="@color/shimmer_Color_Light"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/margin_Small"
+                            android:layout_marginEnd="@dimen/margin_Large"
+                            android:background="@color/shimmer_Color_Light"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_10sdp"
+                            android:layout_marginEnd="@dimen/margin_Double_Extra_Large"
+                            android:background="@color/shimmer_Color_Light"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_Large"
+                                android:layout_marginStart="@dimen/margin_Medium"
+                                android:gravity="center_vertical">
+
+                                <View
+                                    android:layout_width="@dimen/slider_Icon_Size_Large"
+                                    android:layout_height="@dimen/slider_Icon_Size_Large"
+                                    android:layout_marginEnd="@dimen/margin_Large"
+                                    android:background="@color/shimmer_Color_Light"/>
+
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginEnd="@dimen/margin_Medium"
+                                    android:orientation="vertical">
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/_10sdp"
+                                        android:layout_marginBottom="@dimen/margin_Small"
+                                        android:background="@color/shimmer_Color_Light"
+                                        tools:ignore="TooDeepLayout" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/_10sdp"
+                                        android:layout_marginBottom="@dimen/margin_Small"
+                                        android:layout_marginEnd="@dimen/margin_Large"
+                                        android:background="@color/shimmer_Color_Light"/>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/_10sdp"
+                                        android:layout_marginEnd="@dimen/margin_Double_Extra_Large"
+                                        android:background="@color/shimmer_Color_Light"/>
+
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/margin_Medium"
+                                android:layout_marginEnd="@dimen/margin_Medium"
+                                android:layout_marginStart="@dimen/margin_Medium"
+                                android:gravity="center_vertical">
+
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical">
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/_10sdp"
+                                        android:layout_marginBottom="@dimen/margin_Small"
+                                        android:background="@color/shimmer_Color_Light"/>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/_10sdp"
+                                        android:layout_marginBottom="@dimen/margin_Small"
+                                        android:layout_marginStart="@dimen/margin_Large"
+                                        android:background="@color/shimmer_Color_Light"/>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/_10sdp"
+                                        android:layout_marginStart="@dimen/margin_Double_Extra_Large"
+                                        android:background="@color/shimmer_Color_Light"/>
+
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                                <View
+                                    android:layout_width="@dimen/slider_Icon_Size_Large"
+                                    android:layout_height="@dimen/slider_Icon_Size_Large"
+                                    android:layout_marginStart="@dimen/margin_Large"
+                                    android:background="@color/shimmer_Color_Light"/>
+
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    </ScrollView>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

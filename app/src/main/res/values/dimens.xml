@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="logo_Size">@dimen/_80sdp</dimen>
+    <dimen name="loader_Size">@dimen/_48sdp</dimen>
+    <dimen name="slider_Icon_Size_Large">@dimen/_48sdp</dimen>
+    <dimen name="slider_Icon_Size_Small">@dimen/_32sdp</dimen>
+    <dimen name="icon_Size_Extra_Large">@dimen/_40sdp</dimen>
+    <dimen name="icon_Size_Large">@dimen/_32sdp</dimen>
+    <dimen name="icon_Size_Medium">@dimen/_28sdp</dimen>
+    <dimen name="icon_Size_Default">@dimen/_24sdp</dimen>
+    <dimen name="icon_Size_Small">@dimen/_20sdp</dimen>
+    <dimen name="icon_Size_Extra_Small">@dimen/_16sdp</dimen>
+    <dimen name="icon_Size_Double_Extra_Small">@dimen/_12sdp</dimen>
+
+    <dimen name="text_Size_Extra_Large">@dimen/_20ssp</dimen>
+    <dimen name="text_Size_Default">@dimen/_15ssp</dimen>
+    <dimen name="text_Size_Medium">@dimen/_14ssp</dimen>
+    <dimen name="text_Size_Small">@dimen/_12ssp</dimen>
+    <dimen name="text_Size_Extra_Small">@dimen/_10ssp</dimen>
+    <dimen name="text_Size_Double_Extra_Small">@dimen/_9ssp</dimen>
+
+    <dimen name="margin_Extra_Small">@dimen/_2sdp</dimen>
+    <dimen name="margin_Small">@dimen/_4sdp</dimen>
+    <dimen name="margin_Medium">@dimen/_8sdp</dimen>
+    <dimen name="margin_Large">@dimen/_12sdp</dimen>
+    <dimen name="margin_Extra_Large">@dimen/_16sdp</dimen>
+    <dimen name="margin_Double_Extra_Large">@dimen/_24sdp</dimen>
+    <dimen name="view_Margin">@dimen/_48sdp</dimen>
+
+    <dimen name="padding_Extra_Small">@dimen/_2sdp</dimen>
+    <dimen name="padding_Small">@dimen/_4sdp</dimen>
+    <dimen name="padding_Medium">@dimen/_8sdp</dimen>
+    <dimen name="padding_Large">@dimen/_12sdp</dimen>
+    <dimen name="padding_Extra_Large">@dimen/_16sdp</dimen>
+    <dimen name="padding_Double_Extra_Large">@dimen/_24sdp</dimen>
+
+    <dimen name="snippet_Width">@dimen/_196sdp</dimen>
+    <dimen name="view_Small">@dimen/_1sdp</dimen>
+    <dimen name="fading_Edge_Length">@dimen/_12sdp</dimen>
+    <dimen name="slider_Width">@dimen/_240sdp</dimen>
+    <dimen name="slider_Height">@dimen/_160sdp</dimen>
+    <dimen name="video_Height">@dimen/_136sdp</dimen>
+    <dimen name="shimmer_Space_Height">@dimen/_30sdp</dimen>
+    <dimen name="view_Large">@dimen/_2sdp</dimen>
+
+    <dimen name="card_Radius_Default">@dimen/_12sdp</dimen>
+    <dimen name="card_Radius_Medium">@dimen/_8sdp</dimen>
+    <dimen name="card_Radius_Small">@dimen/_6sdp</dimen>
+    <dimen name="card_Radius_Extra_Small">@dimen/_4sdp</dimen>
+    <dimen name="card_Elevation_Small">@dimen/_2sdp</dimen>
+
+    <dimen name="switch_Radius">@dimen/_20sdp</dimen>
+    <dimen name="switch_Width">@dimen/_64sdp</dimen>
+    <dimen name="switch_Height">@dimen/_18sdp</dimen>
+    <dimen name="switch_Text_Size">@dimen/_8ssp</dimen>
+
+    <dimen name="video_Player_Height">@dimen/_240sdp</dimen>
+    <dimen name="player_Margin">@dimen/_48sdp</dimen>
+    <dimen name="player_Button_Margin">@dimen/_36sdp</dimen>
+    <dimen name="timeBar_Height">@dimen/_26sdp</dimen>
+
+</resources>

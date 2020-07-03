@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/photoHolder"
+        android:layout_width="@dimen/icon_Size_Extra_Large"
+        android:layout_height="@dimen/icon_Size_Extra_Large"
+        android:layout_marginTop="@dimen/padding_Medium"
+        android:layout_marginStart="@dimen/padding_Small"
+        android:layout_marginEnd="@dimen/padding_Extra_Small"
+        android:layout_marginBottom="@dimen/padding_Small"
+        android:background="@drawable/shape_round"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:src="@drawable/ic_placeholder"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

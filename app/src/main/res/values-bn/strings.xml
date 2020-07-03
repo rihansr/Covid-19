@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Titles-->
+    <string name="recovered">সুস্থ</string>
+    <string name="deaths">মৃত্যু</string>
+    <string name="coronaVirus">করোনাভাইরাস</string>
+    <string name="overview">ওভারভিউ</string>
+    <string name="globalCases">বিশ্বে সংক্রমনের তথ্য</string>
+    <string name="dailyCases">দৈনিক সংক্রমনের তথ্য</string>
+    <string name="totalAffected">মোট আক্রান্ত</string>
+    <string name="totalRecovered">মোট সুস্থ</string>
+    <string name="totalDeaths">মোট মৃত্যু</string>
+    <string name="affectedCountry">টি দেশ ও অঞ্চলসমূহে সংক্রমণ</string>
+    <string name="peopleCritical">জনের অবস্থা আশঙ্কাজনক</string>
+    <string name="peopleTested">জনের নমুনা পরীক্ষা করা হয়</string>
+    <string name="peopleAffected">জন আক্রান্ত</string>
+    <string name="peopleDied">জনের মৃত্যু</string>
+    <string name="peopleRecovered">জন সুস্থ</string>
+    <string name="affected">আক্রান্ত</string>
+    <string name="active">চিকিৎসাধীন</string>
+    <string name="globalOverview">গ্লোবাল ওভারভিউ</string>
+    <string name="today">(আজ</string>
+    <string name="lastUpdated">সর্বশেষ আপডেট</string>
+    <string name="maps">মানচিত্র</string>
+    <string name="covid19">কোভিড-১৯</string>
+    <string name="relatedVideos">সংশ্লিষ্ট ভিডিও</string>
+    <string name="notification">নোটিফিকেশন</string>
+    <string name="shareApp">অ্যাপ শেয়ার</string>
+    <string name="language">ভাষা</string>
+
+    <!--Button Texts-->
+    <string name="retry">পুনরায় চেষ্টা করুন</string>
+
+    <!--Hints-->
+    <string name="search_Hint">সার্চ করুন…</string>
+    <string name="searchByCountry_Hint">দেশের নাম দিয়ে সার্চ করুন…</string>
+
+    <!--Messages-->
+    <string name="network_Error">দুঃখিত, আপনার ইন্টারনেট সংযোগ নেই</string>
+    <string name="network_Checking">নেটওয়ার্ক ত্রুটি</string>
+    <string name="location_Error">দুঃখিত, লোকেশন পাওয়া যায়নি</string>
+    <string name="shareAPkVia">কিসের মাধ্যমে কোভিড-১৯ অ্যাপটি শেয়ার করতে চান</string>
+    <string name="storagePermissionNecessary">স্টোরেজের অনুমতি প্রয়োজন</string>
+    <string name="openSettings">সেটিংস-এ যান</string>
+    <string name="storagePermissionMessage">অ্যাপটি শেয়ার করার জন্য স্টোরেজের অনুমতি প্রয়োজন</string>
+    <string name="locationPermissionNecessary">লোকেশনের অনুমতি প্রয়োজন</string>
+    <string name="locationPermissionMessage">মানচিত্রে কোভিড-১৯ সংক্রমনের তথ্য দেখানোর জন্য লোকেশনের অনুমতি প্রয়োজন</string>
+
+</resources>

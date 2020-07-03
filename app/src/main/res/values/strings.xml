@@ -1,0 +1,54 @@
+<resources>
+
+    <!--Titles-->
+    <string name="app_name" translatable="false">COVID-19</string>
+    <string name="recovered">Recovered</string>
+    <string name="deaths">Death</string>
+    <string name="coronaVirus">Coronavirus</string>
+    <string name="overview">Overview</string>
+    <string name="globalCases">Global Cases</string>
+    <string name="dailyCases">Daily Cases</string>
+    <string name="totalAffected">Total Affected</string>
+    <string name="totalRecovered">Total Recovered</string>
+    <string name="totalDeaths">Total Deaths</string>
+    <string name="affectedCountry">countries and territories</string>
+    <string name="peopleCritical">people in critical condition</string>
+    <string name="peopleTested">people had been tested</string>
+    <string name="peopleAffected">people affected</string>
+    <string name="peopleDied">people died</string>
+    <string name="peopleRecovered">people recovered</string>
+    <string name="affected">Affected</string>
+    <string name="active">Active</string>
+    <string name="globalOverview">Global Overview</string>
+    <string name="today">(Today</string>
+    <string name="lastUpdated">Last update</string>
+    <string name="maps">Map</string>
+    <string name="covid19">Covid-19</string>
+    <string name="relatedVideos">Related Videos</string>
+    <string name="notification">Notifications</string>
+    <string name="shareApp">Share App</string>
+    <string name="language">Language</string>
+
+    <!--Button Texts-->
+    <string name="retry">Retry</string>
+    <string name="switch_English" translatable="false">en</string>
+    <string name="switch_Bengali" translatable="false">বাং</string>
+
+    <!--Hints-->
+    <string name="search_Hint">Search Here…</string>
+    <string name="searchByCountry_Hint">Search by Country…</string>
+
+    <!--Messages-->
+    <string name="network_Error">Network error. Please retry when network is stable.</string>
+    <string name="network_Checking">Network error</string>
+    <string name="location_Error">Sorry, Location not found</string>
+    <string name="shareAPkVia">Share COVID-19 app via</string>
+    <string name="storagePermissionNecessary">Storage permission necessary</string>
+    <string name="openSettings">Open Settings</string>
+    <string name="storagePermissionMessage">Storage Permission is needed for sharing app</string>
+    <string name="locationPermissionNecessary">Location permission necessary</string>
+    <string name="locationPermissionMessage">Location Permission is needed for showing cases on map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

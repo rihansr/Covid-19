@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/icon_Size_Extra_Large"
+    android:height="@dimen/icon_Size_Extra_Large"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+  <path
+      android:fillColor="@color/icon_Color_Light"
+      android:pathData="M406,151c25.234,0 45,-26.355 45,-60s-19.766,-60 -45,-60s-45,26.355 -45,60S380.766,151 406,151zM406,61c6.116,0 15,11.687 15,30s-8.884,30 -15,30s-15,-11.687 -15,-30S399.884,61 406,61z"/>
+  <path
+      android:fillColor="@color/icon_Color_Light"
+      android:pathData="M286,90c24.813,0 45,-20.187 45,-45S310.813,0 286,0s-45,20.187 -45,45S261.187,90 286,90zM286,30c8.271,0 15,6.729 15,15s-6.729,15 -15,15s-15,-6.729 -15,-15S277.729,30 286,30z"/>
+  <path
+      android:fillColor="@color/icon_Color_Light"
+      android:pathData="M180.296,121c24.813,0 45,-20.187 45,-45s-20.187,-45 -45,-45s-45,20.187 -45,45S155.483,121 180.296,121zM180.296,61c8.271,0 15,6.729 15,15s-6.729,15 -15,15s-15,-6.729 -15,-15S172.025,61 180.296,61z"/>
+  <path
+      android:fillColor="@color/icon_Color_Light"
+      android:pathData="M106,121c-24.813,0 -45,20.187 -45,45s20.187,45 45,45s45,-20.187 45,-45S130.813,121 106,121zM106,181c-8.271,0 -15,-6.729 -15,-15s6.729,-15 15,-15s15,6.729 15,15S114.271,181 106,181z"/>
+  <path
+      android:fillColor="@color/icon_Color_Light"
+      android:pathData="M360.594,147.115C339.697,132.299 318.16,121 286,121c-73.082,0 -135,45.425 -135,105c0,37.345 15.972,71.417 31.418,104.367C197.117,361.722 211,391.338 211,422c0,49.741 40.252,90 90,90c49.744,0 90,-40.252 90,-90c0,-9.835 -1.711,-20.542 -4.054,-31H451V218.791l-90,-72L360.594,147.115zM361,422c0,33.162 -26.835,60 -60,60c-33.162,0 -60,-26.836 -60,-60c0,-37.345 -15.972,-71.417 -31.418,-104.367C194.883,286.278 181,256.662 181,226c0,-41.229 47.534,-75 105,-75c20.6,0 35.304,6.127 50.095,15.714L271,218.791V391h85.114C358.819,401.752 361,412.824 361,422zM421,361H301V233.209l60,-48l60,48V361z"/>
+  <path
+      android:fillColor="@color/icon_Color_Light"
+      android:pathData="M331,241h60v30h-60z"/>
+  <path
+      android:fillColor="@color/icon_Color_Light"
+      android:pathData="M331,301h60v30h-60z"/>
+</vector>

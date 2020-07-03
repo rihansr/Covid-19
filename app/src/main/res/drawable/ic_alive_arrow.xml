@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:width="@dimen/icon_Size_Extra_Small" android:height="@dimen/icon_Size_Extra_Small"/>
+            <solid android:color="@color/colorTransGreen" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_arrow_green" />
+</layer-list>

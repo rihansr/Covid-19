@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="splash_Bg" type="drawable">@drawable/shape_layout_bg</item>
+    <item name="activity_Bg" type="drawable">@drawable/shape_layout_bg</item>
+    <item name="nav_Bg" type="color">@color/colorPrimary</item>
+    <item name="card_Bg" type="color">@color/colorPrimary</item>
+    <item name="icon_Color_Red" type="color">@color/colorRed</item>
+    <item name="icon_Color_Green" type="color">@color/colorGreen</item>
+    <item name="icon_Color_White" type="color">@android:color/white</item>
+    <item name="icon_Color_Light" type="color">@color/colorLightGray</item>
+    <item name="icon_Color_Dark" type="color">@color/colorDarkGray</item>
+    <item name="font_Color_White" type="color">@android:color/white</item>
+    <item name="font_Color_Light" type="color">@color/colorLightGray</item>
+    <item name="font_Color_Dark" type="color">@color/colorDarkGray</item>
+    <item name="font_Color_Red" type="color">@color/colorRed</item>
+    <item name="font_Color_Blue" type="color">@color/colorBlue</item>
+    <item name="font_Color_Green" type="color">@color/colorGreen</item>
+    <item name="loader_Color" type="color">@color/colorLightGray</item>
+    <item name="shimmer_Color_Light" type="color">#E61D2329</item>
+    <item name="shimmer_Color_Dark" type="color">#CC1D2329</item>
+</resources>

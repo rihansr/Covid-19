@@ -1,0 +1,106 @@
+<resources>
+
+    <!--Base Theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+    <!--Dialog-->
+    <style name="DialogSlideAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="FullScreenPhotoDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/shape_toast</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+    <!--TextViews Style-->
+    <style name="SmallTvStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_Color_Light</item>
+        <item name="android:textSize">@dimen/text_Size_Small</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">@dimen/padding_Medium</item>
+    </style>
+
+    <style name="FaqTvStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_Color_Light</item>
+        <item name="android:textSize">@dimen/text_Size_Small</item>
+    </style>
+
+    <style name="NavItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_Color_Light</item>
+        <item name="android:textSize">@dimen/text_Size_Small</item>
+        <item name="android:drawablePadding">@dimen/padding_Medium</item>
+        <item name="android:padding">@dimen/padding_Medium</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="LanguageTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/switch_Text_Size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Exo Player-->
+    <style name="ExoMediaButton.Rewind">
+        <item name="android:src">@drawable/ic_exo_rewind</item>
+        <item name="android:contentDescription">@string/exo_controls_rewind_description</item>
+    </style>
+
+    <style name="ExoMediaButton.FastForward">
+        <item name="android:src">@drawable/ic_exo_forward</item>
+        <item name="android:contentDescription">@string/exo_controls_fastforward_description</item>
+    </style>
+
+    <style name="ExoMediaButton.Pause">
+        <item name="android:src">@drawable/ic_exo_pause</item>
+        <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+    </style>
+
+    <style name="ExoMediaButton.Play">
+        <item name="android:src">@drawable/ic_exo_play</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style>
+
+    <style name="ExoMediaButton.Next">
+        <item name="android:src">@drawable/ic_exo_skip_next</item>
+        <item name="android:contentDescription">@string/exo_controls_next_description</item>
+    </style>
+
+    <style name="ExoMediaButton.Previous">
+        <item name="android:src">@drawable/ic_exo_skip_previous</item>
+        <item name="android:contentDescription">@string/exo_controls_previous_description</item>
+    </style>
+
+</resources>

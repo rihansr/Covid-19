@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    tools:background="@drawable/activity_Bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.DailyCasesFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_Medium"
+        android:layout_marginStart="@dimen/margin_Double_Extra_Large"
+        android:layout_marginEnd="@dimen/margin_Double_Extra_Large"
+        android:layout_marginBottom="@dimen/margin_Medium"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/margin_Small"
+            app:cardBackgroundColor="@color/card_Bg"
+            app:cardCornerRadius="@dimen/card_Radius_Small"
+            android:elevation="@dimen/card_Elevation_Small">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/searchCountry_Input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/padding_Medium"
+                android:hint="@string/search_Hint"
+                android:textCursorDrawable="@null"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="@dimen/padding_Medium"
+                android:gravity="center_vertical"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:textColor="@color/font_Color_Light"
+                android:textColorHint="@color/font_Color_Dark"
+                android:textSize="@dimen/text_Size_Extra_Small" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/margin_Small"
+            app:cardBackgroundColor="@color/card_Bg"
+            app:cardCornerRadius="@dimen/card_Radius_Small"
+            android:elevation="@dimen/card_Elevation_Small">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/date_Input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/padding_Medium"
+                tools:text="2/03/30"
+                android:drawableStart="@drawable/ic_date"
+                android:drawableEnd="@drawable/ic_arrow_down"
+                android:drawablePadding="@dimen/padding_Medium"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:inputType="date"
+                android:maxLines="1"
+                android:textColor="@color/font_Color_Light"
+                android:textColorHint="@color/font_Color_Dark"
+                android:textSize="@dimen/text_Size_Extra_Small" />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!--Cases by date-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvDateCases"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="@dimen/fading_Edge_Length"
+        tools:itemCount="15"
+        tools:listitem="@layout/sample_daily_case"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:visibility="visible"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

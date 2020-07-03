@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="@dimen/_150sdp"
+    android:layout_marginTop="@dimen/margin_Medium"
+    android:layout_marginBottom="@dimen/margin_Extra_Large"
+    app:contentPadding="@dimen/padding_Medium"
+    android:elevation="@dimen/card_Elevation_Small"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="@dimen/card_Radius_Extra_Small">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="lottie/blink.json"
+            app:lottie_loop="true"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_Small"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/count"
+                style="@style/SmallTvStyle"
+                tools:text="12,17,345"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_Extra_Small">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/todayTv"
+                    style="@style/SmallTvStyle"
+                    android:visibility="gone"
+                    android:layout_marginEnd="@dimen/margin_Extra_Small"
+                    android:text="@string/today"
+                    android:textSize="@dimen/text_Size_Double_Extra_Small"
+                    android:textColor="@color/font_Color_Dark"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/subCount"
+                    style="@style/SmallTvStyle"
+                    tools:text="222"
+                    android:visibility="gone"
+                    android:textSize="@dimen/text_Size_Double_Extra_Small"
+                    android:textColor="@color/font_Color_Light"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text"
+                style="@style/SmallTvStyle"
+                tools:text="@string/peopleAffected"
+                android:layout_marginTop="@dimen/margin_Extra_Small"
+                android:textSize="@dimen/text_Size_Double_Extra_Small"
+                android:textColor="@color/font_Color_Dark"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/percentage"
+                style="@style/SmallTvStyle"
+                tools:text="(0.0%)"
+                android:visibility="gone"
+                android:textSize="@dimen/text_Size_Double_Extra_Small"
+                android:textColor="@color/font_Color_Light"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
